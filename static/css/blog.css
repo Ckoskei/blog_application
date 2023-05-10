@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* about section styling */
+.about{
+    padding-top: 90px;
+    height: 100vh;
+    min-height: 500px;
+    background: url("/static/images/about.png") no-repeat center;
+    background-size: cover;
+    background-color: rgb(83, 86, 102);
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background-color:rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 45px;
+    color: #333333;
+    margin-top: 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666666;
+    margin-bottom: 20px;
+}
